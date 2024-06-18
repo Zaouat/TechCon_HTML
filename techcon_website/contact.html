@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email Address: <a href="mailto:email@example.com">email@example.com</a></p>
+            <p>Social Media Links:
+                <a href="https://www.facebook.com/conference" target="_blank">Facebook</a>,
+                <a href="https://www.twitter.com/conference" target="_blank">Twitter</a>,
+                <a href="https://www.instagram.com/conference" target="_blank">Instagram</a>
+            </p>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2dlongitude!3dlatitude!4m22!1m16!4m15!1m6!1m2!1s0x0%3A0x0!2sConference%20Venue!8m2!3dlatitude!4dlongitude!3m4!1s0x0:0x0!8m2!3dlatitude!4dlongitude"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact Us Form</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;
+            <script> document.write(new Date().getFullYear()); </script> TechCon copyright. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
